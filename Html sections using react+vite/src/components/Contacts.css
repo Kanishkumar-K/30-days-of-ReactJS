@@ -1,0 +1,39 @@
+.contacts-container {
+  margin: 20px;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.contacts-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.co{
+    padding-left: 20px;
+}
+
+.contact-item svg {
+  margin-right: 10px;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #040404;
+}
+
+.contact-item span {
+  margin-left: 5px;
+}

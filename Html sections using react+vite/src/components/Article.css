@@ -1,0 +1,50 @@
+.s2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  }
+  
+  header {
+    flex-basis: 100%; /* Take full width */
+  }
+  
+  .sidebar {
+    flex: 0 0 200px; /* Fixed width sidebar */
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    color: rgb(248, 248, 253); /* Change color on hover */
+  }
+  
+  .c1{
+    background-color: #f2f2f2ca;
+  }
+  .content {
+    padding: 5px;
+    border: 2px solid white;
+    width: 700px;
+    height: 380px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
