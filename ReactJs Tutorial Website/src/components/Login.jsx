@@ -27,7 +27,7 @@ function Login() {
             // Show welcome alert
             alert(`Welcome ${username}! Continue learning :)`);
             // Redirect to home page
-            window.location.href = '/home';
+            window.location.href = '/';
         }
     };
 
