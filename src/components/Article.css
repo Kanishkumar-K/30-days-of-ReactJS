@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/img4.png");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  .article-container {
+    max-width: 800px;
+    margin: 100px auto; /* adjust the margin to center the container vertically */
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent white background */
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .get-started-btn {
+    background-color: #28a745; /* green background color */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px; /* rounded corners */
+    cursor: pointer;
+    font-size: 24px; /* increase font size */
+    margin-top: 20px; /* add some space */
+  }
+  
+  .get-started-btn:hover {
+    background-color: #218838; /* slightly darker green on hover */
+  }
+  
+  .why-react {
+    font-weight: bold;
+    margin-top: 40px; /* add more space */
+    font-size: 28px; /* increase font size */
+  }
+  
+  p {
+    font-size: 20px; /* increase font size for paragraphs */
+    margin-bottom: 20px; /* add some space between paragraphs */
+  }
+  
