@@ -1,0 +1,70 @@
+.page-container {
+  width:1390px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 170px;
+  padding-right: 150px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.component-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.component-list {
+  width: 200px; /* Fixed width for component list */
+  display: flex;
+  flex-direction: column;
+}
+
+.img1{
+  margin-left: 120px;
+  width:660px;
+  height:330px;
+
+}
+
+.component-name {
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.component-name:hover {
+  background-color: #7adf40;
+  border:2px solid rgb(71, 71, 71);
+}
+
+.component-name.active {
+  background-color: #7adf40;
+}
+
+.component-content {
+  flex: 1; /* Take remaining space */
+  margin-left: 60px; /* Add some space between list and content */
+}
+
+.content-wrapper {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.component-content h3 {
+  margin-top: 0;
+}
+
+.component-name {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+}
